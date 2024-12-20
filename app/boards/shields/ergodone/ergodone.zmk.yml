@@ -1,0 +1,8 @@
+file_format: "1"
+id: ergodone
+name: Ergodone
+type: shield
+url: https://github.com/omkbd/ErgoDash
+requires: [pro_micro]
+features:
+  - keys

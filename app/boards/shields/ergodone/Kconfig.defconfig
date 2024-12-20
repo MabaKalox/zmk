@@ -1,0 +1,18 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ERGODONE
+
+config ZMK_KEYBOARD_NAME
+    default "Ergodone"
+
+config I2C
+    default y
+
+config ZMK_KSCAN_MATRIX_POLLING
+    default y
+
+config GPIO_MCP230XX
+    default y
+
+endif
